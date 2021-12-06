@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+body {
+
+	width: 100vw;
+	background: white;
+	font-family: Roboto;
+}
+.container {
+	width: 80%;
+	margin: 10em auto;
+	display: flex;
+	background: white;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.imagebox {
+	margin: 0 auto;
+	flex-basis: 1;
+}
+
+.productimg {
+	max-width: 25em;
+}
+
+.contentcard {
+	width: 25em;
+	margin: 2em auto;
+	flex-basis: 1;
+}
+
+.product-title {
+	margin-top: 1em;
+	margin-bottom: 0.2em;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.subheading {
+	font-weight: 300;
+	font-size: 1em;
+}
+
+.itemspec{
+	text-decoration: none;
+	list-style-type: none;
+	margin-top: 2em;
+}
+
+.button {
+	margin: 2em 0;
+	width: 10em ;
+	background: seagreen;
+	padding: 0.5em 2em;
+	text-align: center;
+	border-radius: 5px;
+
+}
+
+a.button-cta {
+
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.5em;
+	color: black;
+}
